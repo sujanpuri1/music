@@ -10,16 +10,24 @@ body
 {
     
     background-image: url("neon\ bg.jpg");
-    background-size: 100vw 106vw;
+    background-size: 100vw 3000px;
     background-repeat: no-repeat;
     background-color: black;
     font-family: "Dekko"; font-size: 22px;
+}
+
+@media only screen and (max-width:900px)
+{
+    body
+    {
+        background-size: 100vw 800vw;
+    }
 }
 @media only screen and (max-width:500px)
 {
     body
     {
-        background-size: 99vw 800vw;
+        background-size: 100vw 800vw;
     }
 }
 nav
@@ -108,6 +116,42 @@ h2
     transform: scale(1.09);
 }
 
+@media only screen and (max-width:900px)
+{
+    .logo h2 
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:700px)
+{
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo h2 
+    {
+        font-size: 40px;
+    }
+    .navcon
+    {
+        margin: 0px 3px 0px 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width:700px)
+{
+    nav
+    {
+        margin-top: -125px;
+    }
+}
 @media only screen and (max-width:500px)
 {
     nav
@@ -148,13 +192,15 @@ h2
     border-radius: 35px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-repeat: no-repeat;   
-    background-size: 80vw 40vw;
+    background-size: 80vw 550px;
 }
-@media only screen and (max-width:500px)
+@media only screen and (max-width:700px)
 {
+
     .body
     {
-        background-size: 135vw 125vw; 
+        margin-top: 130px;
+        background-size: 124vw 600px; 
     }
 }
 .heading
@@ -178,6 +224,15 @@ h2
     .body
     {
         margin-top: 160px;
+    }
+    #h2
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .songcards iframe
+    {
+        margin: 5px;
     }
 }
 
@@ -213,7 +268,7 @@ h2
     .about img
     {
         height: 145px;
-        margin: 15px;
+        margin: 5px;
     }
 }
 /***/
@@ -225,7 +280,7 @@ h2
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-image: url("lastbg.png");
     background-repeat: no-repeat;   
-    background-size: 80vw 40vw;
+    background-size: 80vw 500px;
 }
 .lastheading
 {
@@ -252,6 +307,14 @@ h2
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+
+@media only screen and (max-width:900px)
+{
+    .otherpro
+    {
+        background-size: 80vw 1000px;
+    }
+}
 @media only screen and (max-width:500px)
 {
     .otherpro
