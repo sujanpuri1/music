@@ -16,20 +16,35 @@ body
     font-family: "Dekko"; font-size: 22px;
 }
 
-@media only screen and (max-width:900px)
+@media only screen and (max-width:800px)
 {
     body
     {
-        background-size: 100vw 800vw;
+        background-size: 800px 400vw;
     }
 }
-@media only screen and (max-width:500px)
+@media only screen and (max-width:430px)
 {
     body
     {
-        background-size: 100vw 800vw;
+        background-size: 430px 1000vw;
     }
 }
+@media only screen and (max-width:400px)
+{
+    body
+    {
+        background-size: 410px 1200vw;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    body
+    {
+        background-size: 322px 1300vw;
+    }
+}
+
 nav
 {
     display: flex;
@@ -128,7 +143,7 @@ h2
     }
 }
 
-@media only screen and (max-width:700px)
+@media only screen and (max-width:800px)
 {
     nav
     {
@@ -149,7 +164,7 @@ h2
 
 }
 
-@media only screen and (max-width:700px)
+@media only screen and (max-width:800px)
 {
     nav
     {
@@ -198,7 +213,7 @@ h2
     background-repeat: no-repeat;   
     background-size: 80vw 550px;
 }
-@media only screen and (max-width:700px)
+@media only screen and (max-width:800px)
 {
 
     .body
