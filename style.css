@@ -118,6 +118,10 @@ h2
 
 @media only screen and (max-width:900px)
 {
+    .logo img
+    {
+        height: 25px;
+    }
     .logo h2 
     {
         font-size: 25px;
@@ -156,7 +160,7 @@ h2
 {
     nav
     {
-        margin: -150px 9vw 2px 9vw;
+        margin: -180px 9vw 2px 9vw;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -164,7 +168,7 @@ h2
     .navcon
     {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         justify-content: space-between;
     }
     .navbar div
@@ -223,17 +227,29 @@ h2
 {
     .body
     {
-        margin-top: 160px;
+        margin-top: 190px;
     }
-    #h2
+    .navbar
     {
-        display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .watch div a
+    {
+        margin: 0px;
     }
     .songcards iframe
     {
-        margin: 5px;
+        height: 35vw;
+        width: 60vw;
     }
+}
+@media only screen and (max-width:420px)
+{
+    .logo h2 
+    {
+        font-size: 25px;
+    }
+
 }
 
 /**/
@@ -325,6 +341,11 @@ h2
     {
         height: 150px;
         width: 270px;
+    }
+    .songcon iframe
+    {
+        height: 35vw;
+        width: 60vw;
     }
 }
 
