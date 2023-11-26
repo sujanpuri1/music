@@ -10,8 +10,8 @@ body
 {
    
     background-image: url("neon\ bg.jpg");
-    background-size: 100vw 3000px;
-    background-repeat: no-repeat; 
+    background-size:100%;
+    background-repeat: no-repeat;
     background-color: black;
     font-family: "Dekko"; font-size: 22px;
 }
